@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="navbar">
+            <div class="icon">
+                <h2 class="logo">Globe Hub</h2>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="/New folder/gellary arrange/gallery.html">GALLERY</a></li>
+                    <li><a href="#">SERVICE</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="/New folder/contact form/contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <div class="search">
+                <input class="srch" type="search" placeholder="Type To text">
+                <button class="btn">Search</button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>BEST PLACE <br><span>TO FIND</span></h1>
+            <p class="par">AND EXPLORE <br> THAT ALL YOU NEED</p>
+            <button class="cn"><a href="/New folder/new acc/index.html">JOIN US</a></button>
+            <div class="form">
+                <form id="loginForm" action="login.php" method="POST" onsubmit="return validateForm(event);">
+                    <h2>Login Here</h2>
+                    <input id="email" type="email" name="email" placeholder="Enter Email Here" required>
+                    <span id="emailError" class="error"></span>
+                    <input id="password" type="password" name="password" placeholder="Enter Password Here" required>
+                    <span id="passwordError" class="error"></span>
+                    <button class="btnn" type="submit">Login</button>
+                    <p class="link">Don't have an account?<br>
+                    <a href="/New folder/new acc/index.html">Sign up</a> here</p>
+                    <div class="icons">
+                        <a href="#"><img src="facebook-logo-1-2.png" class="fb"></a>
+                        <a href="#"><img src="instagram.jfif" class="ins"></a>
+                        <a href="#"><img src="OIP.jfif" class="tw"></a>
+                        <a href="#"><img src="google.png" class="gogl"></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="errorModal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <p id="errorMessage"></p>
+        </div>
+    </div>
+
+    <script src="validation.js"></script>
+</body>
+</html>

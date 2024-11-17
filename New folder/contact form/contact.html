@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css" />
+    <title>Contact Form</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Get in touch</h2>
+        <p>Feel free to contact me about anything related to Tourism Searchers.</p>
+        <form class="contact_form" action="contact.php" method="post">
+            <div class="input-area">
+                <input type="text" id="name" name="name" placeholder="Your name" required />
+            </div>
+            <div class="input-area">
+                <input type="email" id="emailadd" name="email" placeholder="Email Address" required />
+            </div>
+            <div class="input-area">
+                <input type="text" id="Subject" name="subject" placeholder="Subject" required />
+            </div>
+            <div class="input-area h-80">
+                <textarea id="message" name="message" placeholder="Your message" required></textarea>
+            </div>
+            <button type="submit" class="sendbtn">Send</button>
+            <button type="button" class="sendbtn1">
+                <a href="/New folder\main.html">Cancel</a>
+            </button>
+        </form>
+    </div>
+    <button class="connect-btn">Get Connected</button>
+
+    <script src="validation2.js"></script> 
+</body>
+</html>
